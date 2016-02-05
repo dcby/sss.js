@@ -1,0 +1,6 @@
+\!data/
+.vscode/
+typings/
+.gitattributes
+.npmignore
+tsd.json

@@ -1,0 +1,28 @@
+{
+  "name": "@dcby/sss.js",
+  "version": "0.1.16",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "bin": {
+    "sss": ".bin/program.js",
+    "sss-project": ".bin/project.js",
+    "sssbg": ".bin/sssbg.sh",
+    "sssend": ".bin/sssend.sh"
+  },
+  "description": "SuperSmartSender JS version.",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.6.0",
+    "dot": "^1.0.3",
+    "js-yaml": "^3.2.6",
+    "libmime": "^0.1.7",
+    "libqp": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cloud",
+  "license": "BSD"
+}
